@@ -48,6 +48,7 @@ table {
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+    background-color: #f8f8f8;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -129,7 +130,7 @@ a:hover {
 header {
     display: flex;
     padding: 10px 10px 10px 10px;
-    border-bottom: 1px solid black;
+    
 }
 
 h1 {
@@ -182,15 +183,20 @@ main {
 
 .main-content {
     text-align: center;
-    margin: 50px 20% 1000px 20%;
+    margin: 50px 20% 100px 20%;
 }
 .main-content h2 {
     font-size: 2rem;
     margin: 0 0 20px 0;
 }
 
+.main-content h3 {
+    font-size: 3rem;
+    margin: 0 0 20px 0;
+}
+
 .background-image {
-  background-image: url("images/ingredients.jpg");
+  background-image: url("images/powder.jpg");
   height: 100vh;
   background-position: center; 
   background-repeat: no-repeat; 
@@ -198,16 +204,24 @@ main {
 }
 
 .background-text {
-    background-color: rgba(20,80,30,0.1);
     text-align: center;
-    position: absolute;
-    top: 20%;
+    background-color: rgba(0,0,0,0.5);
+    position: relative;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    border-radius: 20px;
-    padding: 20px 0;
-    width: 100vw;;
+    padding: 20px 5% 510px 5%;
+    
+}
+
+.background-text ul li{
+    display: inline-block;
+    font-size: 2rem;
+}
+.background-text h2{
+    font-size: 4rem;
+    padding: 200px 0 100px 0;
 }
 
 .background-button {
@@ -245,12 +259,30 @@ main {
     color: black;
     font-size: 3rem;
     font-weight: 100;
-
 }
 
 
 .main-content-text p{
     text-align: left
+}
+
+.image-wrap {
+   margin: 40px 0;
+}
+.image-wrap img {
+    width: 100%;
+}
+
+.info-image {
+    margin: 0 auto;
+}
+.info-image img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.info-image img:active {
+        width: 50%;
 }
 
 /* Contact
@@ -348,4 +380,17 @@ footer {
     nav ul li a{
         display: none;
     }
+    
+    .background-text ul li{
+    font-size: 1.5rem;
+        padding: 
+    }
+    .main-content {
+    text-align: center;
+    margin: 50px 5% 100px 5%;   
+    }
+    .background-text {
+    padding: 20px 5% 520px 5%;
+    
+}
 }
