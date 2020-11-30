@@ -580,7 +580,9 @@ footer h4 {
 /* Smaller screens
 ******************/
 @media only screen and (max-width: 700px) {
-    
+    main {
+        margin: 0 0 50px 0;
+    }
     header { 
     padding: 10px 10px 0px 10px;
     }
@@ -598,7 +600,7 @@ footer h4 {
     }
     .main-content {
     text-align: center;
-    margin: 50px 5% 100px 5%;   
+    margin: 0px 5% 100px 5%;   
     }
     .background-text {
     padding: 20px 5% 520px 5%;
