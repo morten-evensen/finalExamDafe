@@ -142,7 +142,7 @@ header .logo {
 }
 header nav {
     flex: 3;
-    margin: auto;
+    margin: 0 auto;
 }
 
 header nav ul {
@@ -183,7 +183,7 @@ main {
 
 .main-content {
     text-align: center;
-    margin: 50px 20% 100px 20%;
+    margin: 0px 20% 100px 20%;
 }
 .main-content h2 {
     font-size: 2rem;
@@ -196,7 +196,7 @@ main {
 }
 
 .background-image {
-  background-image: url("images/powder.jpg");
+   background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1) ), url("images/powder.jpg");
   height: 100vh;
   background-position: center; 
   background-repeat: no-repeat; 
@@ -205,7 +205,6 @@ main {
 
 .background-text {
     text-align: center;
-    background-color: rgba(0,0,0,0.5);
     position: relative;
     top: 50%;
     left: 50%;
@@ -222,6 +221,17 @@ main {
 .background-text h2{
     font-size: 4rem;
     padding: 200px 0 100px 0;
+}
+
+.information-wrap h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0 0 20px 0;
+}
+
+.information-wrap a {
+    text-decoration: underline;
+    color: blue;
 }
 
 .background-button {
@@ -274,16 +284,89 @@ main {
 }
 
 .info-image {
-    margin: 0 auto;
+    margin: 50px 0;
+    transition: 0.5s;
+   
 }
+
+
 .info-image img {
     width: 100%;
     transition: 0.5s;
+    margin-top: 20px;
 }
 
-.info-image img:active {
-        width: 50%;
+.info-image button {
+    position: relative;
+    bottom: 60px;
+    left: 10px;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    transition: 0.3s;
 }
+
+.info-image button:hover {
+    padding: 12px 30px;
+    cursor: pointer;
+    opacity: 0.9;
+    
+}
+
+.info-image button:active {
+    opacity: 0.3;
+    
+}
+
+
+/* Products
+******************/
+
+.products-wrap {
+    background-color: rgba(0,0,0,0.02);
+    margin: 20px 0 0 0;
+}
+
+.products-wrap h2 {
+    font-size: 3rem;
+}
+
+.products-wrap h3 {
+    font-size: 2rem;
+}
+
+.products-wrap p {
+    text-align: center;
+}
+
+.product {
+    margin: 40px 0 0 0;
+}
+
+.product button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    transition: 0.3s;
+    margin: 10px 0 0 0;
+}
+
+.product button:hover {
+    padding: 12px 30px;
+    cursor: pointer;
+    opacity: 0.9;
+    
+}
+
+.product button:active {
+    opacity: 0.3;
+    
+}
+
 
 /* Contact
 ******************/
