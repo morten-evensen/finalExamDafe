@@ -282,9 +282,11 @@ main {
 
 .image-wrap {
    margin: 40px 0;
+    padding: 0 10%;
 }
 .image-wrap img {
     width: 100%;
+    
 }
 
 .info-image {
@@ -332,11 +334,12 @@ main {
 
 .products-wrap {
     background-color: white;
-    margin: 20px 0 0 0;
+    margin: 0 0 0 0;
 }
 
 .products-wrap h2 {
     font-size: 3rem;
+     padding: 20px 0 0 0;
 }
 
 .products-wrap h3 {
@@ -377,15 +380,35 @@ main {
 /* About us
 ******************/
 
+.about-image {
+     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7) ), url("images/two-boys.jpg");
+    min-height: 400px;
+    background-position: top; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.about-image h2 {
+    padding: 30px 0 20px 0;
+    font-size: 3rem;
+}
+
+.about-image p {
+    text-align: left;
+    padding: 0 20%;
+    font-size: 1.2rem;
+}
+
+
 .about-us-team {
     border: 1px solid black;
     background-color: white;;
     padding-bottom: 50px;
 }
 
-.about-wrap {
-    
-}
 .about-wrap a {
     text-decoration: underline;
     color: blue;
@@ -397,7 +420,7 @@ main {
     font-size: 3rem;
 }
 
-.about-wrap h3 {
+.about-us-team h3 {
     text-align: center;
     font-size: 2rem;
     margin: 20px 0 30px 0;
@@ -572,6 +595,29 @@ footer h4 {
   color: white;
 }
 
+.donate-image {
+     background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7) ), url("images/gutta.jpg");
+    min-height: 400px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.donate-image h2 {
+    padding: 30px 0 20px 0;
+    font-size: 3rem;
+}
+
+.donate-image p {
+    text-align: left;
+    padding: 0 20%;
+    font-size: 1.2rem;
+    
+}
+
 .donate {
     margin: 50px 0 50px 0;
 }
@@ -584,19 +630,21 @@ footer h4 {
         margin: 0 0 50px 0;
     }
     header { 
-    padding: 10px 10px 0px 10px;
+    padding: 10px 10px 10px 10px;
     }
         
   nav ul .fa-bars {
-    display: block;
+    display: inline-block;
+      padding: 5px;
+      margin-right: -60px;
+    
   }
     nav ul li a{
         display: none;
     }
     
     .background-text ul li{
-    font-size: 1.5rem;
-        padding: 
+    font-size: 1.5rem; 
     }
     .main-content {
     text-align: center;
@@ -613,4 +661,12 @@ footer h4 {
     .member-image h4 {
     font-size: 150%;
     }
+    .donate-image p {
+    text-align: left;
+    padding: 0 5%;
+    font-size: 1.1rem;
+    }
+    .about-image p {
+    padding: 0 5%;
+}
 }
