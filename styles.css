@@ -50,6 +50,9 @@ body {
     font-weight: 300;
     background-color: #f8f8f8;
 }
+main {
+    background-color: white;
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Archivo', sans-serif;
@@ -251,7 +254,7 @@ main {
     
 }
 .background-button button {
-    background-color: #4CAF50;
+    background-color: #00ab66;
     color: white;
     border-radius: 20px;
     padding: 8px 15px;
@@ -302,7 +305,7 @@ main {
     bottom: 60px;
     left: 10px;
     padding: 10px 20px;
-    background-color: green;
+    background-color: #00ab66;
     color: white;
     border-radius: 20px;
     border: none;
@@ -325,8 +328,10 @@ main {
 /* Products
 ******************/
 
+
+
 .products-wrap {
-    background-color: rgba(0,0,0,0.02);
+    background-color: white;
     margin: 20px 0 0 0;
 }
 
@@ -348,7 +353,7 @@ main {
 
 .product button {
     padding: 10px 20px;
-    background-color: green;
+    background-color: #00ab66;
     color: white;
     border-radius: 20px;
     border: none;
@@ -379,7 +384,11 @@ main {
 }
 
 .about-wrap {
-    background-color: #f1f1f1;
+    
+}
+.about-wrap a {
+    text-decoration: underline;
+    color: blue;
 }
 
 .about-wrap h2 {
@@ -394,6 +403,10 @@ main {
     margin: 20px 0 30px 0;
 }
 
+.about-us-team {
+    background-color: #f8f8f8;
+}
+
 .about-us-images {
     padding: 0 0px;
     display: flex;
@@ -404,10 +417,8 @@ main {
    padding: 0 10px;
     flex: 1;
     text-align: center;
-    border: 1px solid black;
     margin: 5px 2px;
-    border-radius: 50px;
-    background-color: #f1f1f1;
+   
 }
 
 .member-image h4 {
@@ -418,20 +429,24 @@ main {
 
 .member-image img {
     width: 100%;
-    border-radius: 50px;
+    border-radius: 50%;
     padding-bottom: 20px;
+}
+
+.team-text {
+    padding: 0 20%;
 }
 
 /* Contact
 ******************/
 
 .contact-box{
-  max-width: 800px;
-  height: auto;
-  background: #fff;
-  margin: 50px auto;
-  box-sizing: border-box;
-  padding: 40px;
+    max-width: 800px;
+    height: auto;
+    background-color:  #f8f8f8;
+    margin: 50px auto;
+    box-sizing: border-box;
+    padding: 40px;
 }
 
 .contact-box h2{
@@ -529,6 +544,10 @@ footer h4 {
   margin: 5px 5px;
   border-radius: 50%;
     
+}
+
+.product .button {
+    background-color: #00ab66;
 }
 .fa:hover {
     opacity: 0.7;
