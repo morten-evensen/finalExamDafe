@@ -175,8 +175,6 @@ nav ul .fa-bars {
     padding: 15px 0 0 0;
 }
     
-
-
 /* Index page
 ******************/
 
@@ -292,7 +290,6 @@ main {
 .info-image {
     margin: 50px 0;
     transition: 0.5s;
-   
 }
 
 
@@ -317,20 +314,15 @@ main {
 .info-image button:hover {
     padding: 12px 30px;
     cursor: pointer;
-    opacity: 0.9;
-    
+    opacity: 0.9; 
 }
 
 .info-image button:active {
-    opacity: 0.3;
-    
+    opacity: 0.3; 
 }
-
 
 /* Products
 ******************/
-
-
 
 .products-wrap {
     background-color: white;
@@ -596,7 +588,7 @@ footer h4 {
 }
 
 .donate-image {
-     background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7) ), url("images/gutta.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7) ), url("images/gutta.jpg");
     min-height: 400px;
     background-position: center; 
     background-repeat: no-repeat; 
@@ -615,7 +607,6 @@ footer h4 {
     text-align: left;
     padding: 0 20%;
     font-size: 1.2rem;
-    
 }
 
 .donate {
@@ -630,49 +621,41 @@ footer h4 {
         margin: 0 0 50px 0;
     }
     header { 
-    padding: 10px 10px 10px 10px;
-    }
-        
-  nav ul .fa-bars {
-    display: inline-block;
-      padding: 5px;
-      margin-right: -60px;
+        padding: 10px 10px 10px 10px;
+    }   
+    nav ul .fa-bars {
+        display: inline-block;
+        padding: 5px;
+        margin-right: -60px;
     
-  }
+    }
     nav ul li a{
         display: none;
     }
     
     .background-text ul li{
-    font-size: 1.5rem; 
+        font-size: 1.5rem; 
     }
     .main-content {
-    text-align: center;
-    margin: 0px 5% 100px 5%;   
-    }
-    /*.background-text {
-        padding: 0px 5% 520px 5%;
         text-align: center;
-        position: relative;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-        z-index: 1;
-    }*/
+        margin: 0px 5% 100px 5%;   
+    }
     .about-us-images {
-    flex-direction: column;
+        flex-direction: column;
         padding: 5px 50px;
     }
     .member-image h4 {
-    font-size: 150%;
+        font-size: 150%;
     }
     .donate-image p {
-    text-align: left;
-    padding: 0 5%;
-    font-size: 1.1rem;
+        text-align: left;
+        padding: 0 5%;
+        font-size: 1.1rem;
     }
     .about-image p {
-    padding: 0 5%;
-}
+        padding: 0 5%;
+    }
+    .credit {
+        flex: 2;
+    }
 }
