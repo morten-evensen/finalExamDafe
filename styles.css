@@ -133,7 +133,7 @@ a:hover {
 header {
     display: flex;
     padding: 10px 10px 10px 10px;
-    
+    z-index: 2;
 }
 
 h1 {
@@ -210,12 +210,12 @@ main {
 .background-text {
     text-align: center;
     position: relative;
-    top: 50%;
+    top: 200px;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    padding: 20px 5% 510px 5%;
-    
+    padding: 0px 5% 10px 5%;
+    z-index: 1;
 }
 
 .background-text ul li{
@@ -650,10 +650,16 @@ footer h4 {
     text-align: center;
     margin: 0px 5% 100px 5%;   
     }
-    .background-text {
-    padding: 20px 5% 520px 5%;
-    
-    }
+    /*.background-text {
+        padding: 0px 5% 520px 5%;
+        text-align: center;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        z-index: 1;
+    }*/
     .about-us-images {
     flex-direction: column;
         padding: 5px 50px;
